@@ -11,7 +11,7 @@ function Createdb(){
 
     // Check Connection
     if (!$con){
-        die("Connection Failed : " . mysqli_connect_error());
+        die("Connecion Failed : " . mysqli_connect_error());
     }
 
     // create Database
